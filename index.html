@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Calculadora Simples</h1>
+    <h4>https://github.com/RodrigoPetronis</h4>
+    <section id="main">
+        <section id="visor">
+            <div id="resultado"></div>
+        </section>
+        <section id="primeira">
+            <button onclick="inserir('0')" value="0" class="num" id="zero">0</button>
+            <button onclick="back()" value="<" class="operador" id="voltar"><</button>
+            <button onclick="inserir('/')"  class="operador" id="X">/</button>
+        </section>
+        <section id="segunda">
+            <button onclick="inserir('7')" value="7" class="num" id="sete">7</button>
+            <button onclick="inserir('8')" value="8" class="num" id="8">8</button>
+            <button onclick="inserir('9')" value="9" class="num" id="9">9</button>
+            <button onclick="inserir('*')"  class="operador" id="X">X</button>
+        </section>
+
+        <section id="terceira">
+            <button onclick="inserir('4')" value="4" class="num" id="4">4</button>
+            <button onclick="inserir('5')" value="5" class="num" id="5">5</button>
+            <button onclick="inserir('6')" value="6" class="num" id="6">6</button>
+            <button onclick="inserir('-')" class="operador" id="-">-</button>
+        </section>
+        <section id="quarta">
+            <button onclick="inserir('1')" value="1" class="num" id="1">1</button>
+            <button onclick="inserir('2')" value="2" class="num" id="2">2</button>
+            <button onclick="inserir('3')" value="3" class="num" id="3">3</button>
+            <button onclick="inserir('+')" class="operador" id="+">+</div>
+        </section>
+
+        <section id="quinta">
+            <button onclick="limpar()" class="linha4" id="C">C</button>      
+            <button onclick="inserir('.')" value="." id="virgula">,</button>
+            <button onclick="calcular()" id="igual">=</button>
+        </section>
+
+    </section>
+<script src="script.js"></script>
+</body>
+
+</html>

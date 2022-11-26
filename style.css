@@ -1,0 +1,102 @@
+body {
+    background-color: rgb(21, 55, 59);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    color: cyan;
+}
+h1, h4{
+    margin: 5px;
+}
+#main {
+    display: grid;
+    margin: 20px;
+    background-color: white;
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;    
+}
+
+section #visor {
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    margin: 5px;
+    padding-right: 30px;
+    color: rgb(146, 230, 68);
+    font-size: 30px;
+    background-color: black;
+    min-height: 60px;
+}
+
+section #primeira, #segunda, #terceira, #quarta {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1px 5px 1px 5px;
+    padding: 0;
+    border: solid black;
+    background-color: rgb(68, 28, 78);
+
+}
+
+section #quinta{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1px 5px 4px 5px;
+    padding: 0;
+    border: solid black;
+    background-color: rgb(68, 28, 78);
+}
+
+.operador, .num {
+    margin: 5px 0 5px 0;
+    display: flex;
+    border: solid rgb(47, 2, 73) 2px;
+    padding: 18px;
+    border-radius: 15px;
+}
+
+
+#virgula{
+    display: flex;
+    border: solid rgb(47, 2, 73) 2px;
+    border-radius: 15px;
+    padding: 20px;
+}
+.linha1 {
+    display: flex;
+    border: solid rgb(47, 2, 73) 2px;
+    border-radius: 15px;
+    padding: 20px;
+ 
+}
+
+.linha4 {
+    display: flex;
+    border: solid rgb(47, 2, 73) 2px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#igual{
+    display: flex;
+    justify-content: center;
+    border: solid rgb(47, 2, 73) 2px;
+    padding: 20px;
+    border-radius: 15px;
+    width:120px;
+}
+
+#zero{
+    display: flex;
+    justify-content: cen;
+    border: solid rgb(47, 2, 73) 2px;
+    padding: 20px;
+    border-radius: 15px;
+    width:120px;
+
+}
